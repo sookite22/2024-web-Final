@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+    overflow: auto; /* 스크롤 가능하게 설정 */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+
+#container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 헤더 영역 */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* 세로로 요소들 쌓기 */
+}
+
+#headCollect{
+    display: flex;
+    justify-content: space-between; /* 로고와 로그인을 양쪽으로 정렬 */
+    align-items: center; /* 아이템을 세로 중앙으로 정렬 */
+    height: 100px;
+}
+
+/* 로고 영역 */
+#logo {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #42037d;
+    line-height: 100px;
+    padding-left: 70px;
+    width: 300px;
+    height: 100px;
+}
+
+/* 스몰 메뉴 영역 */
+#smallMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#smallMenu div {
+    display: inline-block;
+    margin: 0px 10px; /* 로그인과 마이 페이지 사이의 간격 설정 */
+}
+
+#smallMenu a {
+    text-decoration: none;
+}
+
+#smallMenu p {
+    margin-top: 50px;
+    padding: 10px; /* 텍스트 주위 간격 설정 */
+    text-align: center;
+}
+
+/* 네비게이션 영역 */
+nav {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    border-top: solid 1px darkgray;
+    border-bottom: solid 1px darkgray;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#topMenu {
+    display: flex;
+    justify-content: center; /* 메뉴 항목들 수평 중앙 정렬 */
+    align-items: center; /* 메뉴 항목들 수직 중앙 정렬 */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+#topMenu > li {
+    position: relative;
+}
+
+#topMenu > li > a {
+    display: block;
+    color: black;
+    font-weight: 600;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+#topMenu > li > ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#topMenu > li > a:hover{
+    color: #42037d;
+    text-shadow: 0 -1px black;
+}
+/*////////////////////////////////////////////////////*/
+
+main {
+    padding: 20px;
+    flex: 1; /* main 요소를 컨테이너의 남은 공간 모두를 차지하도록 설정 */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 가운데 정렬을 위한 세로 정렬 */
+    justify-content: center; /* 가운데 정렬을 위한 가로 정렬 */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 24px;
+    color: #42037d;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #42037d;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.event {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.event h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.event p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+a {
+    color: #42037d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+ol li, ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/*/////////////////////////////////////////*/
+/* 푸터 영역 */
+footer {
+    width: 100%;
+    border-top: 2px solid #222;
+    background-color: #42037d;
+    color: #666;
+    padding: 20px 0;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* 반응형을 위한 플렉스 랩 */
+    padding: 0 20px;
+}
+
+#footer-logo {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 15px;
+    color: #aaa8ac;
+}
+
+#footer-info {
+    text-align: right;
+}
+
+#footer-info p {
+    margin: 0 0 10px;
+    color: #aaa8ac;
+}
+
+#footer-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer-info ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#footer-info ul li a {
+    color: #aaa8ac;
+    text-decoration: none;
+}
+
+#footer-info ul li a:hover {
+    text-decoration: underline;
+}

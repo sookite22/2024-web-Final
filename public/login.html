@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 페이지</title>
+    <link rel="stylesheet" href="css/loginSytle.css">
+</head>
+<body>
+    <div class="container">
+        <h2>로그인</h2>
+        <form id="adminLoginForm">
+            <input type="text" id="adminUsername" placeholder="아이디" required>
+            <input type="password" id="adminPassword" placeholder="비밀번호" required>
+            <button type="submit">로그인</button>
+        </form>
+        <div id="alert-container"></div>
+        <p>회원이 아니신가요? <a href="joinMember.html">회원가입</a></p><!--회원가입 페이지로 이동-->
+    </div>
+
+    <script>
+        const adminLoginForm = document.getElementById('adminLoginForm');
+        const adminUsername = document.getElementById('adminUsername');
+        const adminPassword = document.getElementById('adminPassword');
+        const alertContainer = document.getElementById('alert-container');
+
+        adminLoginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const formData = {
+                username: adminUsername.value,
+                password: adminPassword.value
+            };
+
+            fetch('http://localhost:5500/admin-login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.result === 'success') {
+                    alert('로그인에 성공하였습니다.');
+                    localStorage.setItem('loggedIn', 'true');
+                    localStorage.setItem('loggedInUser', formData.username);
+                    window.location.href = 'main.html'; // 로그인 성공 후 메인 페이지로 이동
+                } else {
+                    alert('로그인 실패: ' + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('로그인 요청 중 오류 발생:', error);
+                alert('로그인 요청 중 오류 발생');
+            });
+        });
+    </script>
+</body>
+</html>

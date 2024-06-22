@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sk8Vibe</title>
+    <link rel="stylesheet" href="css/mainStyle.css">
+</head>
+<body>
+    <div id="container">
+        <header><!--header-->
+            <div id="headCollect">
+                <div id="logo">
+                    <a href="main.html"><!--첫 화면으로 이동-->
+                        <h1>Sk8Vibe</h1>
+                    </a>
+                </div>
+                <div id="smallMenu">
+                    <div id="login">
+                        <a href="login.html"><p>로그인</p></a>
+                    </div>
+                    <div id="mypage">
+                        <a href="myPage.html"><p>마이 페이지</p></a>
+                    </div>
+                </div>                
+            </div>
+            <nav id="navi"><!--메인 메뉴-->
+                <ul id="topMenu">
+                    <li><a href="allBrand.html">ALL BRAND</a></li>
+                    <li><a href="trickTutorial.html">TRICK TUTORIAL</a></li>
+                    <li><a href="spot.html">SPOT</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="community.html">COMMUNITY</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="imageSlide"><!--이미지 배너-->
+            <div id="slides">
+                <img src="img/slides1-Timber(1).jpeg" alt="" onclick="redirectToBrand('Timber')">
+                <img src="img/slides2-santacruz(1).jpg" alt="" onclick="redirectToBrand('Santa Cruz')">
+                <img src="img/slides3-Baker.jpg" alt="" onclick="redirectToBrand('Baker')">
+                <img src="img/slides4-Poetic Collective(1).jpg" alt="" onclick="redirectToBrand('Poetic Collective')">
+            </div>
+            <button id="prev">&lang;</button>
+            <button id="next">&rang;</button>
+        </div>
+        <div id="contents"><!--커뮤니티 페이지 연동-->
+            <div id="communityPosts">
+                <h2>New Community</h2>
+                <div id="postsContainer"></div>
+            </div>
+            <div id="items"><!--베스트 아이템 광고-->
+                <h2>Best Items!</h2>
+                <a href="https://www.vans.co.kr/category/all/skate" target="_blank"><img src="img/vansAd.png" alt=""></a>
+                <a href="https://one8.co.kr/product/list.html?cate_no=3724" target="_blank"><img src="img/bonesAd.png" alt=""></a>
+            </div>
+        </div>
+        <footer><!--footer-->
+            <div id="footer-container">
+                <div id="footer-logo">
+                    <h1>Sk8Vibe</h1>
+                </div>
+                <div id="footer-info">
+                    <p>경기도 부천시 (대표전화) 010-1234-1234</p>
+                    <ul>
+                        <li><a href="#">회사 소개</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>        
+    </div>
+    <script src="js/imageSlide.js"></script>
+    <script src="js/communityPosts.js"></script>
+    <script>
+        window.onload = function() { // 팝업 띄우기
+            window.open('popup.html', '공지사항 팝업', 'width=480,height=580,resizable=yes,scrollbars=yes');
+            updateUIForLoggedInUser();
+        }
+    </script>
+    <script src="js/commonLogin.js"></script> <!--로그인 공통기능-->
+</body>
+</html>

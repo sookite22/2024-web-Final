@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항 팝업</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .popup-content {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            cursor: pointer;
+        }
+
+        .popup-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup-content">
+        <span class="popup-close" onclick="closePopup()">닫기</span>
+        <a href="news.html" target="_blank"><img src="img/contest.png" alt="공지 이미지"></a>
+        <br>
+        <label><input type="checkbox" id="no-show"> 오늘 하루 보지 않기</label>
+    </div>
+
+    <script>
+        function closePopup() {
+            window.close();
+        }
+
+        window.onload = function() {
+            if (localStorage.getItem('noShowPopup')) {
+                window.close();
+            }
+
+            document.getElementById('no-show').addEventListener('change', function() {
+                if (this.checked) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (1 * 24 * 60 * 60 * 1000));
+                    localStorage.setItem('noShowPopup', true);
+                }
+            });
+        };
+    </script>
+</body>
+</html>
