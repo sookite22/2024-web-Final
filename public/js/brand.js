@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brandName: '187 KILLER PADS',
             intro: {
                 imgSrc: 'img/brandLogo/187.png',
-                description: '스케이트보딩에 필수적인 보호성능을 가장 잘 갖추면서도 스타일리시한 디자인을 선보이는 브랜드 입니다. '
+                description: '스케이트 보딩에 필수적인 보호성능을 가장 잘 갖추면서도 스타일리시한 디자인을 선보이는 브랜드 입니다. '
             },
             history: {
                 description: '갓 보드를 시작하는 어린 아이들 부터, 프로 생활을 하는 전문가들까지, 폭넓은 분야의 스케이터들에게 두루 적합한 제품들을 생산합니다. 실제 국제 스케이트보드 대회에서도 수많은 선수들이 187의 제품을 착용하고 출전하고 있습니다.'
@@ -46,16 +46,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "ANTIHERO": {
@@ -71,16 +71,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product2-1.jpg',
                     name: '제품 2-1',
-                    description: '제품 2-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product2-2.jpg',
                     name: '제품 2-2',
-                    description: '제품 2-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: 'ANTIHERO의 연락처 정보입니다. 이메일: brand2@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand2@example.com, 전화번호: 123-456-7890'
             }
         },
         "BAKER": {
@@ -90,22 +90,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: '프로 스케이트보더 앤드류 레이놀즈와 최초 설립자인 제이 스트릭랜드가 2000년에 만든 스케이트보드 회사입니다.'
             },
             history: {
-                description: '187 KILLER PADS의 역사에 대한 설명입니다.'
+                description: '역사에 대한 설명입니다.'
             },
             products: [
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "BONES": {
@@ -121,16 +121,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "BRONSON": {
@@ -146,16 +146,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "CONVERSE": {
@@ -171,16 +171,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "CREATURE": {
@@ -196,16 +196,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "FTC": {
@@ -221,16 +221,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "GIRL": {
@@ -246,16 +246,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "HUF": {
@@ -271,16 +271,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "INDEPENDENT": {
@@ -296,16 +296,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "MAGENTA": {
@@ -315,22 +315,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: '2010년 파리에서 설립 이후 가장 영향력 있고 인기 있는 유럽 스케이트보드 브랜드 중 하나입니다.'
             },
             history: {
-                description: ' 예술적인 데크와 인지도 높은 로고, 비교할 수 없는 독특한 스타일의 비디오를 전개함과 동시에 Adidas, Etnies, FTC 등 스케이트보드 협업을 통해 영향력을 보여줬습니다.'
+                description: '예술적인 데크와 인지도 높은 로고, 비교할 수 없는 독특한 스타일의 비디오를 전개함과 동시에 Adidas, Etnies, FTC 등 스케이트보드 협업을 통해 영향력을 보여줬습니다.'
             },
             products: [
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "MEOW": {
@@ -346,16 +346,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "NIKE": {
@@ -371,16 +371,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "OJ WHEELS": {
@@ -396,16 +396,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "PALACE": {
@@ -421,16 +421,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "PENNY": {
@@ -446,16 +446,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "POETIC COLLECTIVE": {
@@ -471,16 +471,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "POLAR STATE CO": {
@@ -496,16 +496,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "PRIMITIVE": {
@@ -521,16 +521,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "QUASI": {
@@ -546,16 +546,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "REAL": {
@@ -571,16 +571,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "SANTA CRUZ": {
@@ -596,16 +596,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "SUPREME": {
@@ -621,16 +621,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "TENSOR": {
@@ -646,16 +646,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "TIMBER": {
@@ -671,16 +671,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "Vans": {
@@ -696,16 +696,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         },
         "WAYWARD": {
@@ -721,16 +721,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     imgSrc: 'images/product1-1.jpg',
                     name: '제품 1-1',
-                    description: '제품 1-1에 대한 간단한 설명입니다.'
+                    description: ''
                 },
                 {
                     imgSrc: 'images/product1-2.jpg',
                     name: '제품 1-2',
-                    description: '제품 1-2에 대한 간단한 설명입니다.'
+                    description: ''
                 }
             ],
             contact: {
-                description: '187 KILLER PADS의 연락처 정보입니다. 이메일: brand1@example.com, 전화번호: 123-456-7890'
+                description: '이메일: brand1@example.com, 전화번호: 123-456-7890'
             }
         }
     };
